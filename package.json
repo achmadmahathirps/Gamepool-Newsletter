@@ -1,0 +1,19 @@
+{
+  "name": "gamepool-newsletter",
+  "version": "1.0.0",
+  "description": "Newsletter API for Gamepool website.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achmadmahathirps/Gamepool-Newsletter.git"
+  },
+  "author": "Mahathir, Hanafi, Lutfi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/achmadmahathirps/Gamepool-Newsletter/issues"
+  },
+  "homepage": "https://github.com/achmadmahathirps/Gamepool-Newsletter#readme"
+}
