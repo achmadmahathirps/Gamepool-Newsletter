@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Jekyll v4.1.1">
-  <title>Newsletter Signup</title>
+  <title>Gamepool Newsletter</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/sign-in/">
 
@@ -32,19 +32,27 @@
 
 <body class="text-center">
   <img class="mb-4 text-center" src="image/gamepool-logo.png" alt="" width="" height="100">
-  <form action="/" class="form-signin" method="POST">
+
+  <div class="mb-3 panel panel-default">
+    <div class="mb-3 panel-body">
+      <form action="/" class="form-signin" method="POST">
+
+        <h1 class="h3 mb-3"><strong>Subscribe ke Newsletter Gamepool™ untuk mendapatkan info game terkini!</strong></h1>
     
-    <h1 class="h3 mb-3"><strong>Daftar ke Newsletter Gamepool untuk mendapatkan info terkini!</strong></h1>
+        <input type="text" name="fName" id="inputEmail" class="form-control top" placeholder="First Name" required
+          autofocus>
+        <input type="text" name="lName" id="inputPassword" class="form-control middle" placeholder="Last Name" required>
+        <input type="email" name="email" id="inputPassword" class="form-control bottom" placeholder="Email" required>
+    
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Subscribe!</button>
+        <br>
+        <p class="mt-5 mb-3 text-muted">&copy; 2020 Gamepool Ltd. Projek Newsletter oleh : Mahathir. Kontributor : Hanafi, Lutfi
+        </p>
+      </form>
+    </div>
+  </div>
 
-    <input type="text" name="fName" id="inputEmail" class="form-control top" placeholder="First Name" required
-      autofocus>
-    <input type="text" name="lName" id="inputPassword" class="form-control middle" placeholder="Last Name" required>
-    <input type="email" name="email" id="inputPassword" class="form-control bottom" placeholder="Email" required>
-
-    <button class="btn btn-lg btn-primary btn-block" type="submit">Daftar!</button>
-    <br>
-    <p class="mt-5 mb-3 text-muted">&copy; 2020 Gamepool Ltd. Projek oleh : Mahathir. Kontributor projek : Hanafi, Lutfi
-    </p>
-  </form>
+  
 </body>
+
 </html>
