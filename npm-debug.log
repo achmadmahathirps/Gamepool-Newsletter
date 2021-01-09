@@ -1,0 +1,57 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'express' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData express@^4.17.1
+8 silly fetchNamedPackageData express
+9 silly mapToRegistry name express
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/express
+13 verbose request uri https://registry.npmjs.org/express
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 2:30:34 AM
+16 verbose request id 848372cab948a735
+17 http request GET https://registry.npmjs.org/express
+18 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+19 info attempt registry request try #2 at 2:30:44 AM
+20 http request GET https://registry.npmjs.org/express
+21 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+22 info attempt registry request try #3 at 2:31:45 AM
+23 http request GET https://registry.npmjs.org/express
+24 silly fetchPackageMetaData Error: unable to get local issuer certificate
+24 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1105:38)
+24 silly fetchPackageMetaData     at emitNone (events.js:106:13)
+24 silly fetchPackageMetaData     at TLSSocket.emit (events.js:208:7)
+24 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:639:8)
+24 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:469:38)
+24 silly fetchPackageMetaData  error for express@^4.17.1 { Error: unable to get local issuer certificate
+24 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1105:38)
+24 silly fetchPackageMetaData     at emitNone (events.js:106:13)
+24 silly fetchPackageMetaData     at TLSSocket.emit (events.js:208:7)
+24 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:639:8)
+24 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:469:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+25 silly rollbackFailedOptional Starting
+26 silly rollbackFailedOptional Finishing
+27 silly runTopLevelLifecycles Starting
+28 silly runTopLevelLifecycles Finishing
+29 silly install printInstalled
+30 verbose stack Error: unable to get local issuer certificate
+30 verbose stack     at TLSSocket.<anonymous> (_tls_wrap.js:1105:38)
+30 verbose stack     at emitNone (events.js:106:13)
+30 verbose stack     at TLSSocket.emit (events.js:208:7)
+30 verbose stack     at TLSSocket._finishInit (_tls_wrap.js:639:8)
+30 verbose stack     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:469:38)
+31 verbose cwd /media/achmadmahathirps/Universal File/PROGRAMMING/Web Development/Exercise/Gamepool-newsletter
+32 error Linux 5.4.0-60-generic
+33 error argv "/usr/bin/node" "/usr/bin/npm" "install" "express"
+34 error node v8.10.0
+35 error npm  v3.5.2
+36 error code UNABLE_TO_GET_ISSUER_CERT_LOCALLY
+37 error unable to get local issuer certificate
+38 error If you need help, you may report this error at:
+38 error     <https://github.com/npm/npm/issues>
+39 verbose exit [ 1, true ]
